@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: stage
+    description: "Raw source tables from DuckDB STAGE schema"
+    schema: stage
+
+    tables:
+      - name: vendor
+      - name: item
+      - name: manufacturing_unit
+      - name: allowance_days
+      - name: purchase_order
+      - name: goods_received
+      - name: calendar
+
