@@ -11,4 +11,5 @@ SELECT
     month_name,
     "quarter",
     CURRENT_TIMESTAMP AS dw_created_at
+    /*To check the GIT Working*/
 FROM {{ ref('stg_calendar') }}
